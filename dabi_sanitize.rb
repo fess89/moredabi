@@ -8,10 +8,10 @@ class String
 	def gsub_or_self!(x,y)
 		gsub!(x,y) || self
 	end
-
-  def strip_or_self!
-    strip! || self
-  end
+	
+	def strip_or_self!
+		strip! || self
+	end
 
 end
 
